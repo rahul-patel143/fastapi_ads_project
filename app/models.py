@@ -38,7 +38,7 @@ class DimDeviceType(Base):
     device_type_id = Column(Integer, primary_key=True, index=True)
     device_type_name = Column(String, nullable=False)
 
-# Fact Table: Stores Daily Ad Metrics
+# Fact Table for Stores Daily Ad Metrics
 class FactAdMetricsDaily(Base):
     __tablename__ = "fact_ad_metrics_daily"
 
@@ -56,7 +56,6 @@ class FactAdMetricsDaily(Base):
     conversions = Column(Integer, nullable=False)
     likes = Column(Integer, nullable=False)
 
-    # Relationships (Optional, if you want to access related data directly)
     date = relationship("DimDate")
     region = relationship("DimRegion")
     age_group = relationship("DimAgeGroup")

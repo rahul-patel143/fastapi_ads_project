@@ -4,7 +4,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 # Configure logging
 logging.basicConfig(
-    filename="cron_logs.log",  # Save logs to a file
+    filename="cron_logs.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
