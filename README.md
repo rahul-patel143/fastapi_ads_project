@@ -30,7 +30,7 @@ Note: I have include .env, ads_db.sql and logs file too for reference.
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-repo/fastapi-cron-project.git
+git clone https://github.com/rahul-patel143/fastapi_ads_project.git
 cd fastapi_ads_project
 ```
 
