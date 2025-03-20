@@ -6,7 +6,7 @@ Note: I have include .env, ads_db.sql and logs file too for reference.
 ## 📌 Features
 - FastAPI-based RESTful API
 - APScheduler for scheduled cron jobs
-- API to retrieve ad-metrics with datetime range, region, platform
+- API to retrieve ad-metrics with filters datetime range, region, platform
 - API to retrieve the last 10 logs
 - Dockerized application for easy deployment
 
